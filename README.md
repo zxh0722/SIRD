@@ -15,6 +15,6 @@ bash install_sc2.sh
 This will download SC2 into the 3rdparty folder and copy the maps necessary to run over.<br>
 ## Run an experiment
 ```python
-python src/main.py --config=sr_marl --env-config=sc2 with env_args.map_name=corridor t_max=5050000
+python src/main.py --config=sr_marl --env-config=sc2 with env_args.map_name=2c_vs_64zg t_max=5050000
 ```
 All results will be stored in the ``Results`` folder.
