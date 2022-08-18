@@ -17,4 +17,4 @@ This will download SC2 into the 3rdparty folder and copy the maps necessary to r
 ```python
 python src/main.py --config=sr_marl --env-config=sc2 with env_args.map_name=corridor t_max=5050000
 ```
-All results will be stored in the Results folder.
+All results will be stored in the ``Results`` folder.
